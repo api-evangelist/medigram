@@ -1,7 +1,31 @@
 aid: medigram
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medigram.png
 name: Medigram
-description: Medigram is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Medigram, Inc. is a healthcare AI governance company founded by Sherri Douville
+  that builds Darwin, a governed decision platform for high-stakes clinical and
+  performance AI. Darwin implements the sociotechnical data-governance architecture
+  defined in IEEE UL 2933 (the six-dimension TIPPSS framework: Trust, Identity,
+  Privacy, Protection, Safety, Security) and ANSI/HSI 2800:2025, scoring AI systems
+  against a five-level maturity model and crosswalking them to ten governance
+  frameworks (IEEE UL 2933, ANSI/HSI 2800:2025, ISO 42001, OWASP Agentic AI Top 10,
+  NIST AI RMF, FDA, EU AI Act, and the HSCC guides). Applications include medtech
+  AI governance, health-system IT review, and professional-sports player-health
+  governance. Historically Medigram provided a secure, cloud-based mobile
+  communication platform for healthcare professionals. Medigram is a portfolio
+  company surfaced from the a16z network; it publishes marketing and standards
+  content but no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/medigram/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- AI Governance
+- Clinical AI
+- Compliance
+- TIPPSS
+- IEEE UL 2933
+- Health IT
 apis: []
+common:
+- type: Website
+  url: https://www.medigram.com
+- type: About
+  url: https://www.medigram.com/darwin/
+- type: Support
+  url: https://www.medigram.com/contact/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/medigram-inc-/
+- type: LLMsTxt
+  url: llms/medigram-llms.txt
+- type: DomainSecurity
+  url: security/medigram-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
