@@ -1,0 +1,34 @@
+# Front Door AI Index — medigram — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: medigram
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.medigram.com
+  final_host: medigram.com
+  ownership: own
+  owner: medigram
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 110
+  host_score: 110
+  density: 20.56
+  words: 5349
+  tiers:
+    agentic: 6
+    core: 104
+    model: 0
+  ambiguous: 30
+  top_terms:
+    AI: 99
+    agent: 18
+    intelligence: 8
+    automation: 4
+    autonomous agent: 3
+    gen ai: 3
+    agentic: 2
+    AI agent: 1
+    ML: 1
+    generative ai: 1
